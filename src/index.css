@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Star Jedi Outline";
+  src:
+    local('Starjout'),
+    url(./assets/fonts/Starjout.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: "Star Jedi Logo Monoline";
+  src:
+    local('Strjmono'),
+    url(./assets/fonts/Strjmono.ttf) format('truetype')
+}
+
+* {
+  color: #edcf10
+}
+
+body {
+  margin: 0;
+  background-image: radial-gradient(circle, #030f21, #0d091a, #0f0411, #0b0207, #000000);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
